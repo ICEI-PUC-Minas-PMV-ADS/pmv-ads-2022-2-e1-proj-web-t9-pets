@@ -26,3 +26,14 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
     
  
   link do video : https://drive.google.com/file/d/1pCo546z5Uyi7ea8XloaP32Wwxh3Tukju/view?usp=share_link
+  
+  
+  Arquivos adicionado.
+  
+  Cadastro.html
+  style.css feito junto com a Rafaela
+  tela de cadastro_usuario.jpg
+  
+  link do video: https://drive.google.com/file/d/1-rIrELFsMN9Gf6Wqnq-LsC-60iwow_bc/view
+  
+  
