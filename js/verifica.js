@@ -13,12 +13,13 @@ async function verificaUsuario(){
             href = "dados.html";
             encontrado +=1;
             elseif(usuarioSistema != contato[i].senha && senhaSistema == contato[i].usuario)
+              window.print("senha incorreta");
               window.location.href = "index.html"; 
-              write("senha incorreta");
+
             }
       }
       if (encontrado == 0){
+        window.print("Usuário não cadastrado");
         window.location.href = "index.html"  
-        write("Usuário não cadastrado")
       }            
 }

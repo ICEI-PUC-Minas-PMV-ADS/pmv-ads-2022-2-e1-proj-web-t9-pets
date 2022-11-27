@@ -6,13 +6,12 @@ body{
     font-family: "comfortaa", cursive;
 }
 .fundo-home{
-    background-image: url(img/614.jpg);
+    background-image: url(../Img/614.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .main-login {
-    background-image: url(../sitepet/Img/614.jpg);
-    
+    background-image: url(../Img/614.jpg);
     height: 88vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +26,7 @@ body{
  .main-login2{
     width: 100vw;
     height: 100vh;
-    background-image: url(img/614.jpg);
+    background-image: url(../Img/614.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
