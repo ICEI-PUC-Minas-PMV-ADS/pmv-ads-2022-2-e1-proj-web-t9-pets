@@ -11,10 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <script type="text/javascript" src="./js/verifica.js"></script>
 
+
+    <script type="text/javascript">
+      function usuarioLogado(){
+      const params = new Proxy(new URLSearchParams(window.location.search), {
+          get: (searchParams, prop) => searchParams.get(prop),
+      });
+      // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+      console.log('usuario recebido: ' + params.name);
+      document.getElementById("valor_usuario").innerHTML = params.name
+    }
+</script>
     <title>Login</title>
     
 </head>
-<body link="white" vlink="white">
+<body link="white" vlink="white" onload="usuarioLogado()">
   
   <header>
     

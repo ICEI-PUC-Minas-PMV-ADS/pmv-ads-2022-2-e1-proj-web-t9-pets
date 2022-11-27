@@ -7,7 +7,7 @@ async function verificaUsuario() {
   var user = contato.find((item) => { return item.usuario == usuarioSistema.value })
   if (user) {
     if (user.senha == senhaSistema.value) {
-      window.location.href = "home.html";
+      window.location = "./home.html?name="+document.getElementById('usuario').value;
     }
     else {
       alert("Senha invalida")
