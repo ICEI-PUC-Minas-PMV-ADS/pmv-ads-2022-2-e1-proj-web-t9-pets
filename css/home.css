@@ -101,14 +101,14 @@ header {
 
 /*inicio login */
 .login {
-    width: 320px;
+    width: 900px;
     height: auto;
     border: 2px solid rgba(39, 3, 3, 0.7);
-    border-radius: 80px 0px 80px 0px;
+    border-radius: 80px 80px 80px 80px;
     color: #fff;
     background-color: rgba(39, 3, 3, 0.7);;
     top: 62%;
-    left: 83%;
+    left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;

@@ -5,23 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="./js/verifica.js"></script>
 
     <title>Login</title>
     
 </head>
-<body link="white" vlink="white">
+<script>
+
+  
+async function procAnimais() {
+    const res = await fetch("json/pets.json");
+    const pets = await res.json();
+
+    lista = "<table border=1><tr><th>Nome Animal</th><th>Raça</th><th>Aniversário</th></tr>";
+      for (let i = 0; i < pets.length; i++) {
+        
+        lista += "<tr><td>"+ pets[i].nomeanimal + "</td><td>" +
+          pets[i].raca + "</td><td>" +
+            pets[i].nascimento + "</td></tr>";
+      }
+      lista += "</table>"
+
+   document.getElementById('saida_animais').innerHTML = lista;
+}
+
+
+ </script>
   
   <header>
     
     <div class="container-logo">
     <div class="logo-imagem"><a><img src="img/logomarca.png" width="60"></a></div>  
     <div class="logo-texto"></div> 
-    <h1>UNIPETSHOP</h1>&emsp;&emsp;&emsp;<h3>Bem vindo,<br><span id="valor_usuario"></span></h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <h1>UNIPETSHOP</h1>&emsp;&emsp;&emsp;<h3>Bem vindo,<br><script>console.log(usuarioSistema)</script></h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
   </div>
 
   <div class="menu">
@@ -40,7 +59,14 @@
               <i class=""><img src="img/instagram.png"  width="30" height="30" alt=""></i>
     </div>
   </header>
-  <body>
-    <div class="main-login"></div>
+  <body onload="procAnimais()">
+    <div class="main-login">
+
+      <div class="login">
+        <h1>Meus Animais</h1><br><BR> 
+          <div id="saida_animais"></div>
+          <a href="novo.html">Cadastrar novo Animal</a>			
+      </div>
+    </div>
   </body>
 </html>
