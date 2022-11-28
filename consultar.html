@@ -18,12 +18,14 @@
       const res = await fetch("json/pedidos.json");
       const pets = await res.json();
 
-      lista = "<table border=1><tr><th>Nome Animal</th><th>Raça</th><th>Aniversário</th></tr>";
+      lista = "<table border=1><tr><th>Nome Animal</th><th>Raça</th><th>Serviço</th><th>Data Serviço</th><th>Hora Serviço</th></tr>";
       for (let i = 0; i < pets.length; i++) {
         if (user == pets[i].dono) {
-          lista += "<tr><td>" + pets[i].nomeanimal + "</td><td>" +
+          lista += "<tr><td>" + pets[i].animal + "</td><td>" +
             pets[i].raca + "</td><td>" +
-            pets[i].nascimento + "</td></tr>";
+            pets[i].servico + "</td><td>" +
+            pets[i].dataServico + "</td><td>" +
+            pets[i].horaServico + "</td></tr>";
         }
       }
       lista += "</table>"

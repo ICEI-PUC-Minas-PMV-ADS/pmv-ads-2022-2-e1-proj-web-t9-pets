@@ -17,10 +17,12 @@
     async function procAnimais(user) {
       const res = await fetch("json/pets.json");
       const pets = await res.json();
+console.log(user)
 
       lista = "<table border=1><tr><th>Nome Animal</th><th>Raça</th><th>Aniversário</th></tr>";
       for (let i = 0; i < pets.length; i++) {
         if (user == pets[i].dono) {
+          console.log(pets[i].dono)
           lista += "<tr><td>" + pets[i].nomeanimal + "</td><td>" +
             pets[i].raca + "</td><td>" +
             pets[i].nascimento + "</td></tr>";
