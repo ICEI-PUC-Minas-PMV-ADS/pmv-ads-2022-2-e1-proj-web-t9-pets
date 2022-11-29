@@ -16,7 +16,7 @@ Endereço do vídeo de demonstração: https://youtu.be/JoZ-ZCfPfvA
 Atribuição: Desenvolver a tela "Meus Animais", que irá listar os animais já cadastrados referentes ao usuário logado, utilizando uma função que irá abrir e pesquisar através de um arquivo json.
 <p>O que foi feito: Com o auxílio do colega Hebert Sandinha, criamos uma função que percorre todo o arquivo pets.json procurando compatibilidade entre o usuário que digitei na tela de login e o nome do dono dos pets que constam no arquivo JSON. Quando estes nomes são iguais, a função lista na tabela Nome Animal, Raça e Nascimento, mostrando assim, os animais cadastrados para aquele usuário logado. Tive muita dificuldade para a construção da função acima explicada, por se tratar de uma linguagem que contém mais quesitos de lógica de programação, o qual ainda não estou inteirada, mas que acredito também se tornar mais familiar após a prática.</p>
   
-link do vídeo:
+link do vídeo: https://drive.google.com/file/d/13SyvZOdtEmcApiVuOVH5gbZIqKkFAIn7/view
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
