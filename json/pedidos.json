@@ -6,7 +6,7 @@
       "dataServico":"14/12/2022",
       "horaServico":"14:30"
     },
-    { "dono": "Antônio dos Anjos",
+    { "dono": "antônio",
       "animal": "Boby",
       "raca": "Buldogue",
       "servico": "Tosa",
@@ -20,7 +20,7 @@
       "dataServico":"07/12/2022",
       "horaServico":"13:00"
     },
-    { "dono": "Rafaella",
+    { "dono": "rafaella",
       "animal": "Pretinho",
       "raca": "Gato",
       "servico": "Banho",
