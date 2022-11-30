@@ -47,6 +47,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
   Cadastro.html
   style.css feito junto com a Rafaela
   tela de cadastro_usuario.jpg
-
+  
   link do video etapa 03: https://drive.google.com/file/d/1-rIrELFsMN9Gf6Wqnq-LsC-60iwow_bc/view
+  
+  etapa 04, trabalho com JSON e js para configurar e validar o usuário na tela de login.
+
   link do video etapa 04: https://drive.google.com/file/d/1FT4MswX0a_3VmvgZtK_wLeRifQR1UCKX/view 
