@@ -37,7 +37,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
   
   link do video etapa 04: https://drive.google.com/file/d/1L7FMk6qaiyZ7PY_YsSvfJTlIVdBcdgSm/view?usp=share_link
   
-  Nessa etapa 04 trabalhamos com o JSON para estruturar os dados em formato de texto.
+  Nessa etapa 04, trabalhamos com o JSON para estruturar os dados em formato de texto.
   
 
     Arquivos adicionado.
