@@ -31,7 +31,10 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
     ## RESPONSÁVEL: ELVES TEIXEIRA
     
  
-  link do video : https://drive.google.com/file/d/1pCo546z5Uyi7ea8XloaP32Wwxh3Tukju/view?usp=share_link
+  link do video etapa 03: https://drive.google.com/file/d/1pCo546z5Uyi7ea8XloaP32Wwxh3Tukju/view?usp=share_link
+  
+  link do video etapa 04: https://drive.google.com/file/d/1L7FMk6qaiyZ7PY_YsSvfJTlIVdBcdgSm/view?usp=share_link
+  
 
     Arquivos adicionado.
 
