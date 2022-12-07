@@ -48,9 +48,12 @@ console.log(user)
           <li><a href="consultar.html?name=${user}">Meus Pedidos</a></li>
           <li><a href="novo.html?name=${user}">Cadastrar</a></li>
           <li><a href="solicitar.html?name=${user}">solicitar</a></li>
-          <li><a href="index.html?name=${user}">Sair</a></li>
+          <li><a href="index.html">Sair</a></li>
         </ul>`;
         procAnimais(user)
+
+        document.getElementById("logo").innerHTML =
+    `<a href="home.html?name=${user}"><img src="img/logomarca.png" width="60"></a>`
     }
   </script>
 </head>
@@ -59,7 +62,7 @@ console.log(user)
   <header>
 
     <div class="container-logo">
-      <div class="logo-imagem"><a href="home.html"><img src="img/logomarca.png" width="60"></a></div>
+      <div class="logo-imagem" id="logo"></div>
       <div class="logo-texto"></div>
       <h1>UNIPETSHOP</h1>&emsp;&emsp;&emsp;<h3>Bem vindo,<br>
         <span id="valor_usuario"></span>
